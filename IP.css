@@ -1,0 +1,74 @@
+.navbar-fixed-left {
+  width: 140px; /* 140px */
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+}
+
+.navbar-fixed-left .navbar-nav > li {
+  float: left;  /* Cancel default li float: left */
+  display: flex;
+  width: 139px; /* 139px */
+  padding-top: 7px;
+}
+
+.navbar-fixed-left + .container {
+  padding-left: 160px; /* 160px */
+}
+
+.container {
+  height: 100%;
+  padding-left: 0px;
+  left: 160px;
+  margin-left: 35px; /*35px*/
+  border-left-width: 10px;
+  width:843px;
+}
+
+.wrapper {
+  padding-left: 140px; /* 140px */
+  float: center;
+  display: flex;
+  flex-direction: column;
+  /*width: 100vw;*/
+  height: 100%;
+}
+
+/* .form {
+  left: 7px;
+  top: 7px;
+} */
+
+input[type=radio],
+input.radio {
+  float: left;
+  clear: none;
+  margin: 2px 0 0 2px;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: beige;
+  /*width: 100vw;*/
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /*overflow: hidden;*/
+}
+
+.p {
+  font-size: 20pt;
+  float: center;
+  margin-left: 85px;
+}
+
+.row {
+  margin-left: 85px;
+}
+
+thumbnail {
+  margin-left: 85px;
+}
